@@ -15,7 +15,7 @@ try{
 let tex = `
 *👋 Hello ${pushname}*
 
-*👨‍💻_WHITEALFA-MD_MAIN_COMMAND_👨‍💻*
+*👨‍💻_BLACK ALFHA_MAIN_COMMAND_👨‍💻*
 
 *_______🔎MAIN_COMMANDS💻_______*
 
@@ -85,7 +85,7 @@ let tex = `
 
 *🚀 Bot restart කිරීමට*
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇ ᴀʟꜰᴀ ʙᴏᴛ*
+> *POWERDE BY BLACK ALFHA*
 `
 
 return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/tLxNF4M/Whats-App-Image-2024-09-19-at-22-07-43-53e71399.jpg`},caption: tex},{quoted: mek})
