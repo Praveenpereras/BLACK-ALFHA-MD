@@ -26,7 +26,7 @@ async (conn, mek, m, { from, reply }) => {
 
  🔗 _${article.url}_
 
-  > WHITE ALFA MD
+  > BLACK ALFHA
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
