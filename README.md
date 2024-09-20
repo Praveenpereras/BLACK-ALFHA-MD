@@ -9,7 +9,7 @@
 
 📍 Deployment Methods
 
-<a href="https://github.com/Praveenpereras/BLACK ALFHA-DEPLOY/QUEEN-IZUMI-WEB-main/projects/deployment.html"><img src="https://img.shields.io/badge/DIPLOYI%20NOW-black" alt="DEPLOY PLATFORMS" width="170"></a>
+<a href="https://github.com/Praveenpereras/BLACKALFHA-DEPLOY/QUEEN-IZUMI-WEB-main/projects/deployment.html"><img src="https://img.shields.io/badge/DIPLOYI%20NOW-black" alt="DEPLOY PLATFORMS" width="170"></a>
 <br>
 
 
