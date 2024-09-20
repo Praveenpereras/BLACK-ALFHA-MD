@@ -19,7 +19,7 @@ let dec = `*👋 Hello ${pushname}*
 
 *📍PLEASE JOIN MY WHATSAPP GROUP❤️‍🔥👇*
 
-🤖◦ ......................
+🤖◦ https://chat.whatsapp.com/LcYUwlY3p35E2pHKWKfaJb
 
 *BLACK ALFHA OWENERッ*
 
