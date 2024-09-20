@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let des = `*👋 Hello ${pushname}*
+let des = `👋 Hello ${pushname}
 💗 Nice to meet you
 
 ╭───────────────◎◎▷
@@ -30,6 +30,10 @@ let des = `*👋 Hello ${pushname}*
 
 Type To .menu Get Commands👾
 
+*🧬 My what's app bot gop
+
+https://chat.whatsapp.com/LcYUwlY3p35E2pHKWKfaJb
+
 *🧬 My what's app status Hub gop
 
 https://chat.whatsapp.com/L25dhRDgdo6240IesMbgpG
@@ -39,7 +43,7 @@ https://chat.whatsapp.com/G8cos6PhZ0YEQmr50KbE2k
 
 
 🔮MADE BY BLACK ALFHA🔮
-╰───────────────◎◎▷  `
+╰───────────────◎◎▷`
 return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/tLxNF4M/Whats-App-Image-2024-09-19-at-22-07-43-53e71399.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
