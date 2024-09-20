@@ -9,8 +9,9 @@
 
 📍 Deployment Methods
 
-<a href="https://Praveenpereras.github.io/ALFHA-DEPLOY/QUEEN-IZUMI-WEB-main/projects/deployment.html"><img src="https://img.shields.io/badge/DIPLOYI%20NOW-black" alt="DEPLOY PLATFORMS" width="170"></a>
-<br>
+Deploy to HEROKU ↓
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Praveenpereras/BLACK-ALFHA.git)
 
 
 <div align="center">
