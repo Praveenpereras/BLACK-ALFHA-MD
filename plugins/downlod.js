@@ -10,7 +10,7 @@ let baseUrl;
 })();
 
 
-const yourName = "> ❯❯ BLACK ALFHA-MD WHATSAPP BOT ➣";
+const yourName = "> BLACK ALFHA-MD WHATSAPP BOT➣";
 
 
 
