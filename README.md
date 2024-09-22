@@ -16,7 +16,7 @@ Deploy to HEROKU ↓
 
 <div align="center">
   <p align="center">
-<a href="https://github.com/Praveenpereras/BLACK-ALFHA/new/main">
+<a href="https://github.com/Praveenpereras/BLACK-ALFHA-MD/new/main">
     <img src="https://i.ibb.co/tLxNF4M/Whats-App-Image-2024-09-19-at-22-07-43-53e71399.jpg"  width="700px">
 </a>
 <hr>
