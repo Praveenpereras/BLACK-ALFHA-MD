@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting wa bot 🧬...");
+console.log("CONNECTING BLACK ALFHA-MD WHATSAPP BOT 🤖...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('😼 Installing... ')
+console.log('🤴 Installing')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -69,7 +69,27 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `BLACK ALFHA CONNECTED SUCCESSFUL✅\n\nPREFIX:ENJOY THE BOT 👨‍🚀💗 ${prefix}`;
+let up = `🚀BLACK ALFHA V-1 CONNECTED SUCCESSFUL✅ 
+
+👑WELCOM TO BLACK ALFHA V-1 MULTIDEVICE WHATSAPP BOT👑
+
+🔹 OWNER: 94762777919
+
+🔹 VERSION : V-1
+
+🔹 PREFIX:   (  .  )
+
+> THANK FOR YOU USING MY BOT  🔰BLACK ALFHA V-1🔰
+> You can give happiness to others as well as yourself with this bot😊
+> This bot is the first bot I made, so let me know if there is anything wrong🤖
+
+⛓JOIN IN MY WHATSAPP GROUP - : https://chat.whatsapp.com/LcYUwlY3p35E2pHKWKfaJb
+
+⛓SUBSCRIBE MY YOUTUBE CHANNEL - :
+
+🧬That's all for the beautiful children to be happy😁
+
+ρσɯҽԃ Ⴆყ PD 𝚖𝚘𝚍𝚣ꪻ𝐏яανι𝚈αнꪶ🕊🍒😁`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/tLxNF4M/Whats-App-Image-2024-09-19-at-22-07-43-53e71399.jpg` }, caption: up })
 
@@ -113,17 +133,6 @@ const reply = (teks) => {
 conn.sendMessage(from, { text: teks }, { quoted: mek })
 }
 
-conn.edit = async (mek, newmg) => {
-                await conn.relayMessage(from, {
-                    protocolMessage: {
-                        key: mek.key,
-                        type: 14,
-                        editedMessage: {
-                            conversation: newmg
-                        }
-                    }
-                }, {})
-}
 conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               let mime = '';
               let res = await axios.head(url)
@@ -145,24 +154,24 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
             }
-            
-//========OwnerReact========            
-         
+ 
+//===================================work-type========================================= 
+if(!isOwner && config.MODE === "private") return
+if(!isOwner && isGroup && config.MODE === "inbox") return
+if(!isOwner && !isGroup && config.MODE === "groups") return
+//=========OWNER - REACTION ===============================  
 if(senderNumber.includes("94766946854")){
 if(isReact) return
 m.react("👨‍💻")
-}       
- 
-if(senderNumber.includes("94705106657")){
-if(isReact) return
-m.react("🧙‍♂️")
 }
-
+if(senderNumber.includes("94741064257")){
+if(isReact) return
+m.react("😂")
+}
 if(senderNumber.includes("94762777919")){
 if(isReact) return
-m.react("👨‍💻")
-}
-
+m.react("📍")
+}       
 //=====================✓
 
 if (config.AUTO_VOICE === 'true') {
@@ -171,7 +180,8 @@ let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
  }}
-//===============//
+
+        
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
 if (isCmd) {
@@ -206,7 +216,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("BLACK ALFHA,MULTIDEVICE WHATSAPP BOT IS STARTED✅");
+res.send("HEY,BLACK ALFHA-MD MULTIDEVICE WHATSAPP BOT STARTED✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
